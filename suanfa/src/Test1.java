@@ -26,10 +26,19 @@ public class Test1 {
     * */
 
     public void Sum(int a) {
-
-
+        Function function = new Function();
+        /*function.Fsum(a);*/
+            int fsum = function.Fsum(a);
+            System.out.println("现在一共有"+fsum+"只兔子");
 
     }
 
+}
+class  Function{
+    public int Fsum(int i){
+        int b=0;
+        if(i==1 || i==2) return 1; else
+        return Fsum(i-1)+Fsum(i-2);
+    };
 
 }
