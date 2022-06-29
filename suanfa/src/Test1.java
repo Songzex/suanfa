@@ -29,7 +29,7 @@ public class Test1 {
         Function function = new Function();
         /*function.Fsum(a);*/
             int fsum = function.Fsum(a);
-            System.out.println("现在一共有"+fsum+"只兔子");
+            System.out.println("现在一共有"+fsum+"对兔子");
 
     }
 
