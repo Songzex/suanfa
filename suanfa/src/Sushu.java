@@ -12,20 +12,11 @@ public class Sushu {
               }else if (i%j==0) {//被其他数整除 说明他不是素数SU
                    sum++;
                    break;
-
               }
             }
-
-
         }
-
         System.out.println(100-sum);
     }
-
-
-
-
-
 }
 
 
